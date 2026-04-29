@@ -96,7 +96,8 @@ int main() {
     a.display();
     std::cout<<"\n";
     b.display();
-    Rectangle(a.getX(),a.getY(),b.getX(),b.getY());
+    std::cout<<"\n";
+    Rectangle  C(a.getX(),a.getY(),b.getX(),b.getY());
     std::cout<<C.getArea();
     return 0;
 }
