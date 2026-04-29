@@ -54,6 +54,8 @@ public:
 
     // TODO 10: const display()
     void display() const {
+         std::cout<<getWidth();
+         std::cout<<getHeight();
         std::cout<<getArea();
     }
 
@@ -64,7 +66,7 @@ public:
 
 // TODO 12: implement isSameSize
 bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
-    return r1.getArea()==r2.getArea();  // stub
+    return (r1.getArea()==r2.getArea());  // stub
 }
 
 
