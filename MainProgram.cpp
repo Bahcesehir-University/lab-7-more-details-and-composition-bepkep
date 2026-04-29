@@ -79,7 +79,7 @@ public:
     ConstDemo(int v) : value(v) {}  // stub — fix initializer
 
     // TODO 14: const getValue()
-    int getValue() { return value; }  // stub — add const
+    int getValue()  const { return value; }  // stub — add const
 
     // TODO 15: NON-const doubleValue() — multiplies value by 2
     void doubleValue() {value*=2;}  // stub
