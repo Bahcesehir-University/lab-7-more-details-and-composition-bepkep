@@ -82,7 +82,7 @@ public:
     void doubleValue() {value*=2;}  // stub
 
     // TODO 16: const constGetDouble() — returns value * 2 without modifying
-    int constGetDouble() { return value*2; }  // stub — add const + fix body
+    int constGetDouble() const{ return value*2; }  // stub — add const + fix body
 };
 
 
